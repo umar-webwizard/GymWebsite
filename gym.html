@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Luxurious+Script&family=Mea+Culpa&family=Source+Sans+3:ital,wght@1,600&display=swap" rel="stylesheet">
+<style>
+    body{
+        margin: 0px;
+        padding: 0px;
+        object-fit: scale-down;
+        background: url("img/grl.jpeg");
+        max-width: fit-content;
+        max-height: fit-content;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        
+    }
+    .left{
+        display: inline-block;
+        position: absolute;
+        left: 10px;
+        top: 15px;
+
+    }
+    .left img{
+        width: 100px;
+        transform: rotateY(180deg);
+    }
+    .left div{
+        text-align: center;
+     font-family: 'Luxurious Script', cursive; 
+     /*font-family: 'Mea Culpa', cursive;
+      font-family: 'Source Sans 3', sans-serif;*/
+        font-size: 30px;
+        cursor: wait;
+    }
+    .mid{
+        width: 53%;
+        display: block;
+        margin: 10px auto;
+         
+
+
+    }
+    .right{ 
+        display: inline-block;
+        position: absolute;
+        right: 25px;
+        top: 22px;
+
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 25px;
+    }
+    .navbar li a{
+        color: black;
+        padding: 24px;
+        text-decoration: none;
+    }
+    .navbar li a:hover{
+        text-decoration: underline;
+        color: gray;
+    }
+    .btn{
+        margin: 0px 9px;
+        background-color: #aebfc7;
+        border-radius: 10px;
+        border: 2px solid white;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: gray;
+    }
+    .container{
+       border: 3px solid white;
+        margin: 40px 400px;
+        padding: 20px;
+        width: 33%;
+        border-radius: 4px;
+
+    }
+    .formgrp input{
+        text-align: center;
+        display: block;
+        width: 83%;
+        padding: 1px;
+        border: 2px solid black;
+        border-radius: 5px;
+        margin: 11px auto;
+        font-size: 20px;
+        font-family: ' Mea Culpa', cursive;
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        width: 83%;
+        margin: 30px auto;
+        padding: 11px;
+        font-size: 20px;
+        font-family: ' Mea Culpa', cursive;
+        background-color: white;
+        border-color: black;
+        border-radius: 18px;
+    }
+</style>
+<body>
+    <header class="header">
+        <!--logo-->
+        <div class="left">
+         <img src="img/loga.jpg" alt="">
+         <div>U.S Fitness</div>
+        </div>
+        <!--navbar-->
+        <div class="mid">
+        <ul class="navbar">
+            <li><a href="">Home </a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Images</a></li>
+            <li><a href="">Contact US</a></li>
+        </ul>
+        </div>
+        <!--button-->
+        <div class="right">
+       <button class="btn">Contact Us</button>
+       <button class="btn">Email Us</button>
+        </div>
+        <div class="container">
+           <h1>Join the best Gym in Ambajogai</h1>
+           <form action="noaction">
+            <div class="formgrp">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="formgrp">
+                <input type="text" name="" placeholder="Enter your Address">
+            </div>
+            <div class="formgrp">
+                <input type="text" name="" placeholder="Mobile Number">
+            </div> <div class="formgrp">
+                <input type="text" name="" placeholder="Enter your City ">
+            </div>
+           <button class="btn">Submit</button>
+           
+            
+           </form>
+        </div>
+    </header>
+</body>
+</html>
